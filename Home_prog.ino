@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
  
-const char* ssid = "NETGEAR74";
-const char* password = "87654321";
-IPAddress staticIP(10,0,0,20);
-IPAddress gateway(10,0,0,20);
+const char* ssid = "NETWORK_NAME";
+const char* password = "PASSWORD";
+IPAddress staticIP(10,0,0,X);
+IPAddress gateway(10,0,0,X);
 IPAddress subnet(255,255,255,0);
 int ledPin = 0;
 int ledPin1 = 2;
